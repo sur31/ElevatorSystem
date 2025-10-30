@@ -1,6 +1,6 @@
-﻿using ElevatorSystem.Services;
-using ElevatorSystem.Utilities;
-namespace ElevatorSystem
+﻿using ElevatorSystem.Core.Services;
+using ElevatorSystem.Core.Utilities;
+namespace ElevatorSystem.Core
 {
     internal class Program
     {

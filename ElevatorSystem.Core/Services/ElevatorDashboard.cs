@@ -1,5 +1,5 @@
-using ElevatorSystem.Utilities;
-namespace ElevatorSystem.Services
+using ElevatorSystem.Core.Utilities;
+namespace ElevatorSystem.Core.Services
 {
     /// <summary>
     /// Represents the dashboard for monitoring elevator statuses.

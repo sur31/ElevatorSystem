@@ -1,5 +1,5 @@
-using ElevatorSystem.Enums;
-namespace ElevatorSystem.Models
+using ElevatorSystem.Core.Enums;
+namespace ElevatorSystem.Core.Models
 {
     /// <summary>
     /// Represents a request made for an elevator.

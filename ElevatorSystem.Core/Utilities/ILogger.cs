@@ -1,4 +1,4 @@
-namespace ElevatorSystem.Utilities
+namespace ElevatorSystem.Core.Utilities
 {
     /// <summary>
     /// Logger interface for logging messages.

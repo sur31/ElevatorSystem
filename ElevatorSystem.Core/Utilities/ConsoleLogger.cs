@@ -1,4 +1,4 @@
-namespace ElevatorSystem.Utilities
+namespace ElevatorSystem.Core.Utilities
 {
     /// <summary>
     /// A simple console logger implementation of ILogger.

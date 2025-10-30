@@ -1,8 +1,8 @@
-using ElevatorSystem.Models;
-using ElevatorSystem.Enums;
-using ElevatorSystem.Utilities;
+using ElevatorSystem.Core.Models;
+using ElevatorSystem.Core.Enums;
+using ElevatorSystem.Core.Utilities;
 
-namespace ElevatorSystem.Services
+namespace ElevatorSystem.Core.Services
 {
     /// <summary>
     /// Controls and manages multiple elevators in the system.

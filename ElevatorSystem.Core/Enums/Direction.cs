@@ -1,4 +1,4 @@
-namespace ElevatorSystem.Enums
+namespace ElevatorSystem.Core.Enums
 {
     /// <summary>
     /// Represents the direction of elevator movement.

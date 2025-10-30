@@ -1,4 +1,4 @@
-namespace ElevatorSystem.Services
+namespace ElevatorSystem.Core.Services
 {
     /// <summary>
     /// Configuration settings for the Elevator System.

@@ -1,8 +1,8 @@
-using ElevatorSystem.Enums;
-using ElevatorSystem.Services;
-using ElevatorSystem.Utilities;
+using ElevatorSystem.Core.Enums;
+using ElevatorSystem.Core.Services;
+using ElevatorSystem.Core.Utilities;
 
-namespace ElevatorSystem.Models
+namespace ElevatorSystem.Core.Models
 {
     /// <summary>
     /// Represents an individual elevator in the system.
