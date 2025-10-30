@@ -50,7 +50,7 @@ namespace ElevatorSystem.Core.Services
         /// <summary>
         /// Generates a random elevator request from a random floor.
         /// </summary>
-        private void GenerateRandomRequest()
+        public void GenerateRandomRequest()
         {
             int floor = _random.Next(1, _config.Floors + 1);
             Direction direction = floor == _config.Floors ? Direction.Down :
@@ -65,7 +65,7 @@ namespace ElevatorSystem.Core.Services
         /// Assigns the best elevator to the given request using an optimized strategy.
         /// </summary>
         /// <param name="request"></param>
-        private void AssignElevatorOptimized(ElevatorRequest request)
+        public void AssignElevatorOptimized(ElevatorRequest request)
         {
             Elevator selectedElevator = FindBestElevator(request);
             selectedElevator.AddRequest(request.Floor);
@@ -77,7 +77,7 @@ namespace ElevatorSystem.Core.Services
         /// </summary>
         /// <param name="request"></param>
         /// <returns></returns>
-        private Elevator FindBestElevator(ElevatorRequest request)
+        public Elevator FindBestElevator(ElevatorRequest request)
         {
             // Priority 1: Moving in same direction and can pick up on the way
             var sameDir = _elevators
